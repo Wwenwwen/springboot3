@@ -1,0 +1,47 @@
+2024-07-29  INFO 22960 --- [main] com.it.boot.Boot302DemoApplication       : Starting Boot302DemoApplication using Java 17.0.12 with PID 22960 (Z:\spring-boot3\boot3-02-demo\target\classes started by 75100 in Z:\spring-boot3)
+2024-07-29  INFO 22960 --- [main] com.it.boot.Boot302DemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-29  INFO 22960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-29  INFO 22960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-29  INFO 22960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-07-29  INFO 22960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-07-29  INFO 22960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29  INFO 22960 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-07-29  INFO 22960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29  INFO 22960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 721 ms
+2024-07-29  INFO 22960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-07-29  WARN 22960 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-29  WARN 22960 --- [main] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][main] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2024-07-29  WARN 22960 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-29  INFO 22960 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-29  INFO 22960 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-29 ERROR 22960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-07-29  INFO 25400 --- [main] com.it.boot.Boot302DemoApplication       : Starting Boot302DemoApplication using Java 17.0.12 with PID 25400 (Z:\spring-boot3\boot3-02-demo\target\classes started by 75100 in Z:\spring-boot3)
+2024-07-29  INFO 25400 --- [main] com.it.boot.Boot302DemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-29  INFO 25400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-29  INFO 25400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-29  INFO 25400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-07-29  INFO 25400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-07-29  INFO 25400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29  INFO 25400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-07-29  INFO 25400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29  INFO 25400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 680 ms
+2024-07-29  INFO 25400 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-07-29  WARN 25400 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-29  WARN 25400 --- [main] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][main] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2024-07-29  INFO 25400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-29  INFO 25400 --- [main] com.it.boot.Boot302DemoApplication       : Started Boot302DemoApplication in 1.487 seconds (process running for 1.894)
